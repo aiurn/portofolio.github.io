@@ -111,8 +111,8 @@ h3{
 
 .sub-text{
     margin: 20px 0;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 
@@ -224,20 +224,9 @@ h3{
 
 /* responsive */
 @media screen and (max-width: 700px) {
-    /* .btn {
-        display: block;
-        font-size: 18px;
-    }
-    h1 {
-        font-size: 32px;
-        margin: 0 0 8px 0;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    section {
+    /* section {
         padding: 25px 0 15px 0;
-    }  */
+    }   */
 
     /* =================================== */
     .my-name{
@@ -275,16 +264,16 @@ h3{
     }
 
     .tek{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .sub-text{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         text-align: center;
     }
 
     .sub-test{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     .dot{
@@ -293,7 +282,7 @@ h3{
     }
 
     .judul{
-        font-size: 4vw
+        font-size: 5vw
     }
 
     .myskill-content{
@@ -307,8 +296,3 @@ h3{
         margin-top:50px;
     }
 }  
-
-
-/* @media (max-width: 700px){
-    
-} */
