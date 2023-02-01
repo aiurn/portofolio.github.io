@@ -137,19 +137,19 @@ h3{
     border: 1px solid #e1e1e1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-    height: 300px;
+    height: auto;
 }
 
 .myskill-content img{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
     margin: auto;
     display: block;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .skill{
-    font-size: larger;
+    font-size: 120%;
     text-align: center;
     margin: 20px;
     color: #9A86A4;
@@ -234,3 +234,72 @@ h3{
         padding: 25px 0 15px 0;
     } 
 }  
+
+
+@media (max-width: 700px){
+    body{
+        background-color: white;
+    }
+    .my-name{
+        padding-top: 50px;
+        font-size: 8vw;
+    }
+
+    header h3{
+        font-size: 4vw;
+    }
+
+    .gunung{
+        width: 70%;
+    }
+
+    .awan-1, .awan-2{
+        width: 20%;
+        position: absolute;
+    }
+
+    .awan-1{
+        top: 2%;
+        right: 5%;
+    }
+
+    .awan-2{
+        left: 10%;
+        top: 50%;
+    }
+
+    .hero{
+        width: 35%;
+        height: auto;
+    }
+
+    .tek{
+        font-size: 4vw;
+    }
+
+    .sub-text{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .sub-test{
+        font-size: 2vw;
+    }
+
+    .dot{
+        margin-top: 2%;
+        font-size: 6vw;
+    }
+
+    .judul{
+        font-size: 4vw
+    }
+
+    .myskill-content{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
