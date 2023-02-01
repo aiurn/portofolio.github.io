@@ -64,7 +64,7 @@ header{
     font-family: 'Macondo', cursive;
 }
 
-header img{
+.gunung{
     width: 50%;
     height: auto;
 }
@@ -254,10 +254,10 @@ h3{
         font-size: 4vw;
     }
 
-    /* .gunung{
+    .gunung{
         width: 70%;
         height: auto;
-    } */
+    }
 
     .awan-1, .awan-2{
         width: 20%;
